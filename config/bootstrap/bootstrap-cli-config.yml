@@ -67,11 +67,11 @@ bootstrap:
                 idp-source-id: aa99fbc1-7761-42aa-941c-fb48789fe516 # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-06-test-all-read # i.e. bootcamp-01-test-all-read
               - cdf-group: cdf:uc:001:oee:owner
-                idp-source-id: 733979aa-f9b0-465e-987c-e3a9cf4bcada # for the AAD Group to be matched to cdf-group
-                idp-source-name: bootcamp-06-test-uc-001-oee-owner # i.e. bootcamp-01-test-all-owner
+                idp-source-id: 733979aa-f9b0-465e-987c-e3a9cf4bcada
+                idp-source-name: bootcamp-06-test-uc-001-oee-owner
               - cdf-group: cdf:uc:001:oee:read
-                idp-source-id: 54ba8021-0c99-4066-a6a3-134ad62b24e8 # for the AAD Group to be matched to cdf-group
-                idp-source-name: bootcamp-06-test-uc-001-oee-read # i.e. bootcamp-01-test-all-read
+                idp-source-id: 54ba8021-0c99-4066-a6a3-134ad62b24e8
+                idp-source-name: bootcamp-06-test-uc-001-oee-read
 
         - cdf-project: cdf-bootcamp-06-prod
           mappings:
@@ -85,11 +85,11 @@ bootstrap:
                 idp-source-id: 8df79f02-111e-4e18-ae2c-da21cebec45e
                 idp-source-name: bootcamp-06-prod-all-read
               - cdf-group: cdf:uc:001:oee:owner
-                idp-source-id: efb51be6-71ff-401d-abea-08c896d689dc # for the  AAD Group to be matched to cdf-group
-                idp-source-name: bootcamp-06-prod-uc-001-oee-owner # i.e. bootcamp-01-test-all-owner
+                idp-source-id: efb51be6-71ff-401d-abea-08c896d689dc
+                idp-source-name: bootcamp-06-prod-uc-001-oee-owner
               - cdf-group: cdf:uc:001:oee:read
-                idp-source-id: f87314db-6dfa-4ccb-9f08-75cb29c1820b # for the AAD Group to be matched to cdf-group
-                idp-source-name: bootcamp-06-prod-uc-001-oee-read # i.e. bootcamp-01-test-all-read
+                idp-source-id: f87314db-6dfa-4ccb-9f08-75cb29c1820b
+                idp-source-name: bootcamp-06-prod-uc-001-oee-read
 
     namespaces:
         # Typical config will have a namespace for data sources ("src") and a namespace for use cases ("uc")
@@ -109,7 +109,7 @@ bootstrap:
            # Description names will normally follow src:001:srcname or uc:001:usecasename naming convention
           ns-nodes:
               - node-name: uc:001:oee
-                description: Use case 001 Over all Equipment effectiveness
+                description: Use case 001 Overall Equipment effectiveness
                 shared-access:
                     read:
                         - node-name: src:001:sap
